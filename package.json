@@ -1,6 +1,6 @@
 {
   "name": "passport-sina",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sina weibo authentication strategy for Passport.",
   "author": { "name": "Qichao Yang", "email": "imkafei@gmail.com", "url": "http://www.aomemo.com/" },
   "repository": {
