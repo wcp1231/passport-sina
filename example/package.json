@@ -1,0 +1,11 @@
+{
+  "name": "passport-sina-example",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "latest",
+    "hjs": "latest",
+    "passport": "latest",
+	"passport-sina": "latest"
+  },
+  "engines" : { "node" : ">=0.6", "npm" : ">=1.0" }
+}

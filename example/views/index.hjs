@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    {{#is_auth}}
+    <a href="/user/logout">登出</a>
+    <pre>{{user_data}}</pre>
+    {{/is_auth}}
+    {{^is_auth}}
+    <p><a href="/user/login">用新浪微博帐号登陆</a></p>
+    {{/is_auth}}
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "passport-sina",
+  "version": "0.0.1",
+  "description": "sina weibo authentication strategy for Passport.",
+  "author": { "name": "Qichao Yang", "email": "imkafei@gmail.com", "url": "http://www.aomemo.com/" },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kfll/passport-sina.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kfll/passport-sina/issues"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth": "latest"
+  },
+  "engines": { "node": ">=0.6", "npm": ">=1.0" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "keywords": ["passport", "sina", "weibo", "auth", "oauth2", "oauth", "authn", "authentication", "identity"]
+}
