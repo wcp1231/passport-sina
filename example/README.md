@@ -31,6 +31,8 @@ function(accessToken, refreshToken, profile, callback) {
 
 `requireState` 在此处设为 `false` 可以关闭 state 参数验证。
 
+第二个参数是个 `verify` 函数，请参照 passport 文档。
+
 ## routes/auth.js
 
 `state` 存储在 session 中，与 `callback` 返回的参数做比较。

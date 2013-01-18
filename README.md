@@ -10,7 +10,7 @@ $ npm install passport-sina
 
 ## Usage
 
-见 [https://github.com/kfll/passport-sina/tree/master/example]()
+见 [https://github.com/kfll/passport-sina/tree/master/example](https://github.com/kfll/passport-sina/tree/master/example)
 
 为了防止 CSRF 跨站，此插件强制进行 state 参数验证。
 
