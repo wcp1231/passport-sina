@@ -14,6 +14,13 @@ $ npm install passport-sina
 
 为了防止 CSRF 跨站，此插件强制进行 state 参数验证。
 
+## Tests
+
+```
+$ npm install
+$ make test
+```
+
 ## TODO
 
 不想写文档啊！！
